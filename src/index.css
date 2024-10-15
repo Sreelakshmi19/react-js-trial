@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa; /* Light background color for elegance */
+    font-family: 'Arial', sans-serif;
+    color: #495057; /* Default text color */
+}
+
+.container {
+    max-width: 800px; /* Width of the main content area */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background-color: #fff; /* White background for forms */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1, h2, h3, h4 {
+    color: #6f42c1; /* Primary color for headings */
+}
+
+.navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text for brand */
+}
+
+.nav-link {
+    color: #ffffff; /* White text for links */
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+.btn-primary {
+    background-color: #6f42c1; /* Primary button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a3180; /* Darker on hover */
+}
+
+input, select {
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.form-label {
+    margin-top: 10px; /* Spacing for labels */
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text for footer */
+}
+
+/* Additional styles for forms */
+.form-control {
+    margin-bottom: 15px; /* Spacing between form elements */
+    border: 1px solid #ced4da; /* Light border for inputs */
+}
+
+.form-control:focus {
+    border-color: #6f42c1; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(111, 66, 193, 0.5); /* Subtle shadow on focus */
+}
